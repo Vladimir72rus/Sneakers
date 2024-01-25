@@ -1,0 +1,32 @@
+{
+  "description": "Get sneakers",
+  "tags": [ "Sneakers" ],
+  "summary": "Get sneakers",
+  "querystring": {
+    "type": "object",
+    "properties": {
+      "brands": {
+        "type": "string",
+        "description": "1: ADIDAS, 2: NIKE, 3: PUMA",
+        "example": "1"
+      }
+    }
+  },
+  "response": {
+    "200": {
+      "description": "Succesful response",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "brand": { "type": "string" },
+          "price": { "type": "integer" },
+          "size": { "type": "integer" },
+          "description": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+  

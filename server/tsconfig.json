@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "es5",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "noEmitOnError": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "downlevelIteration":true,
+    // "strictNullChecks": true,
+    "sourceMap": true,
+    "outDir": "build"
+  },
+  "files": ["index.ts"],
+  "exclude": ["node_modules", "build/server.js"]
+}

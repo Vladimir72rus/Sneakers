@@ -1,0 +1,26 @@
+{
+  "name": "izosimov_test",
+  "version": "1.0.0",
+  "description": "izosimov_test",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "tsc -v & nodemon index.ts",
+    "clean": "rm -rf build/*"
+  },
+  "keywords": [],
+  "author": "Izosimov",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^7.0.0",
+    "fastify": "3.15.1",
+    "fastify-serve-swagger-ui": "^1.0.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@fastify/swagger": "^6.0.0",
+    "@types/node": "^18.15.7",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.2"
+  }
+}
